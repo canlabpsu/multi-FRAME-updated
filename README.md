@@ -26,7 +26,7 @@ Estimates a single trial model for every trial of interest using SPM12. The resu
 Runs MVPA within singular ROIs or a Searchlight within mask provided by user. Currently employs SVM classifier for ROI level, and LDA for searchlight. Output is saved as tidyverse-formatted CSV file and as MAT files. Searchlight results are saved as weights NiFTi files. Summary CSV file is generated as well, concatenating all subject accuracies. Requires CoSMoMVPA
 
 ```runRSA.m```
-Runs RSA within singular ROIs, or ERS analyses. Output is saved as tidyverse-formatted CSV file and as MAT files. Summary CSV file is generated as well, concatenating all subject accuracies. Requires CoSMoMVPA
+Runs RSA within singular ROIs, or ERS analyses. Output is saved as tidyverse-formatted CSV file and as MAT files. Summary CSV file is generated as well, concatenating all subject accuracies. This version now allows for Trial-Level or Category-Level analysis. Requires CoSMoMVPA
 
 ```runRSASearchlight.m```
 Runs RSA Searchlight in user provided masks. Output is saved as a summary .mat file, and a .nii file containing subject specific correlation maps. Requires CoSMoMVPA
